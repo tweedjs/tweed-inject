@@ -1,0 +1,45 @@
+{
+  "name": "tweed-inject",
+  "version": "0.3.0",
+  "description": "Dependency Injection Framework for Tweed",
+  "homepage": "https://github.com/tweedjs/tweed-inject",
+  "license": "WTFPL",
+  "keywords": ["di", "ioc", "tweed"],
+  "bugs": {
+    "url" : "https://github.com/tweedjs/tweed/issues"
+  },
+  "repository": "tweedjs/tweed-inject",
+  "author": "Emil Persson <emil.n.persson@gmail.com> (https://emilpersson.se)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^16.0.4",
+    "jest": "^18.1.0",
+    "standardts": "^1.0.0",
+    "ts-jest": "^18.0.2",
+    "ts-loader": "^1.3.3",
+    "tweed-typescript-config": "^0.3.0",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.9"
+  },
+  "optionalDependencies": {
+    "tweed": "*"
+  },
+  "scripts": {
+    "test": "standardts './!(dist|node_modules)/**/*.ts' && jest",
+    "prepublish": "tsc"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
