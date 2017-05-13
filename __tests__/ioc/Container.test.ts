@@ -1,4 +1,4 @@
-import { Node } from 'tweed'
+import { VirtualNode } from 'tweed'
 import Container, { inject, autoinject } from '../../src/ioc/Container'
 
 describe('Container', () => {
