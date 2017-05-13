@@ -2606,9 +2606,9 @@ tunnel-agent@~0.4.1:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
 
-tweed-typescript-config@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/tweed-typescript-config/-/tweed-typescript-config-0.3.0.tgz#9401afb4865d91a03e897ee9f8652851df991bdc"
+tweed-typescript-config@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/tweed-typescript-config/-/tweed-typescript-config-0.5.0.tgz#97db1ff969fd880facc8d152edd4d390537d283a"
 
 tweed@*:
   version "0.3.2"
